@@ -4,7 +4,7 @@
 # fi
 
 # unix
-alias ll='ls -alF'
+alias ll='ls -lahFG'
 alias la='ls -A'
 alias l='ls -CF'
 
