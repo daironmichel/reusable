@@ -31,6 +31,8 @@ alias gra='git remote add'
 alias gs='git status'
 alias gst='git stash'
 alias gsp='git stash pop'
+alias ga='git add'
+alias gaa='git add .'
 
 if [ -d ~/.nvm ]; then
   # This lazy loads nvm
