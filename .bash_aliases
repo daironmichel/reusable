@@ -25,7 +25,8 @@ alias gp='git push'
 alias gpu='git pull'
 alias gr='git remote'
 alias gra='git remote add'
-alias gs='git stash'
+alias gs='git status'
+alias gst='git stash'
 alias gsp='git stash pop'
 
 if [ -d ~/.nvm ]; then
