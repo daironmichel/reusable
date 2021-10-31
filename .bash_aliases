@@ -8,6 +8,8 @@ alias ll='ls -lahFG'
 alias la='ls -A'
 alias l='ls -CF'
 
+alias path='echo $PATH | tr ":" "\n" | nl'
+
 alias lx='exa -lagh --git --sort type'
 
 alias show-files='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
@@ -38,6 +40,9 @@ alias gst='git stash'
 alias gsp='git stash pop'
 alias ga='git add'
 alias gaa='git add .'
+gd() {
+  git diff $1^!
+}
 
 if [ -d ~/.nvm ]; then
   # This lazy loads nvm
